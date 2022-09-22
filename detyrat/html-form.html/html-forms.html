@@ -1,0 +1,77 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+</head>
+<body>
+
+    <div class="title">
+        PerProgramera - Forme aplikimi
+    </div>
+    <br> <br>
+    <div class="contact-form">
+        <form action="#">
+            <fieldset>
+                <legend>Te dhenat personale</legend>
+                    <span>Emri dhe mbiemri :</span>
+                     <input type="text" name="Emri dhe mbiemri" required="required" placeholder="Emri dhe Mbiemri" >
+                    <br> <br>
+                    <span>Datëlindja</span>
+                    <input type="datetime-local" name="datelindja"  >
+                    <br> <br>
+                    <span>Gjinia :</span>
+                    <input type="radio" id="mashkull" name="gjinia" >
+                    <label for="mashkull">M</label>
+                    <input type="radio" id="femer" name="gjinia" >
+                    <label for="femer">F</label>
+                    <br><br>
+                    <span>Shteti :</span>
+                    <input list="country" >
+                    <datalist id="country">
+                        <option value="Kosovo">Kosovo</option>
+                        <option value="Albania">Albania</option>   
+                        <option value="Maqedonia">Maqedonia</option>
+                    </datalist>
+            </fieldset>
+
+            <br><br><br>
+
+            <fieldset>
+                <legend>Te dhena tjera</legend>
+
+                <label for="njohurite">Njohurite : </label>
+                <input type="checkbox" id="html">
+                <label for="html">Html</label>
+                <input type="checkbox" id="css">
+                <label for="css">CSS</label>
+                <input type="checkbox" id="js">
+                <label for="js">JS</label>
+                <input type="checkbox" id="php">
+                <label for="php">PHP</label>
+
+                <br><br>
+
+                <label for="website">Portfolio Website :</label>
+                <input type="url" id="website">
+
+                <br><br>
+
+                <label for="cv">CV</label>
+                <input type="file" accept="image/png, image/jpeg">
+
+                <br><br>
+
+                <label for="text-area">Pse deshiron te behesh pjese e jona?</label>
+                <textarea id="text-area" name="text-area" rows="10" cols="50"></textarea>
+            </fieldset>
+
+            <br><br>
+
+            <input type="button" value="Submit">
+        </form>
+    </div>
+    
+</body>
+</html>
