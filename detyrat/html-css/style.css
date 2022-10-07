@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Inconsolata:wght@700&family=PT+Serif:ital,wght@0,700;1,400&family=Poppins:wght@600&family=Raleway:wght@300&family=Silkscreen&family=Source+Serif+Pro&display=swap');
+
+*{
+    margin: 0;
+}
+
+body{
+    background-color: #333333;   
+}
+
+.title{
+    width: 600px;
+    margin: 40px auto 0 auto;
+}
+
+.title-text{
+    font-family: 'Silkscreen', cursive;
+    color: white;
+}
+
+.teampage{
+    width: 1440px;
+    background-color: #fafafa;
+    margin: 100px auto;
+
+    border-radius: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 50px 100px;
+}
+
+.header h1{
+    align-items: center;
+}
+
+
+h3, .i{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.ii{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600 !important;
+}
+
+h1, .p{
+    font-family: 'PT Serif', serif;
+    text-transform: uppercase;
+}
+
+
+
+.paragraph{
+    width: 400px;
+}
+
+.our-team{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.photo{
+    margin: 50px;
+}
+
+.photo h3{
+    margin: 5px;
+}
+
+.photo p{
+    position: relative;
+    left: 190px;
+    bottom: 365px;
+
+    transform: rotate(90deg);
+
+}
+
+.photo2{
+    margin-top: 150px;
+}
+
+.photo4{
+    margin-top: -150px;
+}
+
+.photo6{
+    margin-top: -100px;
+}
+
+.photo img{
+    width: 350px;
+}
